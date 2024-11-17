@@ -1,9 +1,6 @@
 {
   "name": "yuya",
   "private": true,
-  "engines": {
-    "node": "16.20.0"
-  },
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
@@ -19,5 +16,8 @@
     "@babel/plugin-proposal-private-property-in-object": "^7.21.0",
     "babel-loader": "^8.2.2",
     "webpack-dev-server": "3"
+  },
+  "engines": {
+    "node": "16.20.0"
   }
 }
